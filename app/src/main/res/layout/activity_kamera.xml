@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+    <Button
+        android:id="@+id/btnkembali"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="kembali" />
+
+
+    <ImageView
+        android:id="@+id/gambar"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_marginStart="70dp"
+        app:srcCompat="@drawable/as" />
+
+    <Button
+        android:id="@+id/btkamera"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="149dp"
+        android:layout_marginTop="2dp"
+        android:background="@android:color/holo_blue_bright"
+        android:text="kamera" />
+
+</LinearLayout>
